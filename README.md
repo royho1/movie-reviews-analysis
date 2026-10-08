@@ -25,6 +25,38 @@ The goal of this project was to quantify how professional critics and general au
 
 Full methodology and discussion: [`report/final_report.pdf`](report/final_report.pdf).
 
+## Screenshots
+
+### Sentiment by genre
+
+![Sentiment by genre](docs/screenshots/sentiment-by-genre.png)
+
+Average professional vs user sentiment across five genres.
+
+### RoBERTa vs VADER
+
+![RoBERTa vs VADER](docs/screenshots/roberta-vs-vader.png)
+
+True positive rate on the same review-classification task. RoBERTa 0.849 vs VADER 0.784.
+
+### Adventure and comedy
+
+![Adventure and comedy](docs/screenshots/distributions-adventure-comedy.png)
+
+Sentiment distributions and rating correlations for two genres.
+
+### Crime and horror
+
+![Crime and horror](docs/screenshots/distributions-crime-horror.png)
+
+Sentiment distributions and rating correlations for two genres.
+
+### Superhero
+
+![Superhero](docs/screenshots/distributions-superhero.png)
+
+Sentiment distribution and rating correlation for superhero films.
+
 ## Repository structure
 
 ```
